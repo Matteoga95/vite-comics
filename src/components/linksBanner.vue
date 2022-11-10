@@ -5,8 +5,8 @@ export default {
 </script>
 
 <template>
-    <div class="links">
-        <div class="container d-flex p-5 pb-0 gap-3">
+    <div class="links p-5">
+        <div class="container d-flex p-5 gap-3">
             <div class="p-4 ">
                 <h2 class="py-2">DC COMICS</h2>
                 <p class="p-0">Characters</p>
@@ -65,7 +65,9 @@ p {
 
 img {
     position: absolute;
-    top: -40px;
+    top: -80px;
     right: 10%;
+    width: 30%;
+
 }
 </style>

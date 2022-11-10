@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-    <div id="sezioni">
+    <div id="sezioni" class="p-5">
         <div class="container p-5 d-flex justify-content-center">
             <div class="d-flex ">
                 <img class="img-fluid " src="../assets/img/buy-comics-digital-comics.png" alt="">
