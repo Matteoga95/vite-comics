@@ -1,16 +1,18 @@
 <script >
 import headerSite from "./components/header.vue"
 import sezioni from "./components/sezioni.vue"
+import linksBanner from "./components/linksBanner.vue"
 
 export default {
   components: {
     headerSite,
-    sezioni
+    sezioni,
+    linksBanner
   }
 }
 </script>
 
-<template>
+<template >
   <headerSite />
   <div id="content">
     <div class="container">
@@ -20,6 +22,9 @@ export default {
 
   <sezioni />
 
+  <linksBanner />
+
+  <!-- footer -->
 
 
 

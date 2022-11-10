@@ -6,7 +6,7 @@ export default {
 
 <template>
 
-    <nav class="navbar navbar-expand-lg p-5">
+    <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid d-flex justify-content-between">
             <img src="../assets/img/dc-logo.png" alt="">
 

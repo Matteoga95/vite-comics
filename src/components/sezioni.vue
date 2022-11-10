@@ -6,7 +6,7 @@ export default {
 
 <template>
     <div id="sezioni">
-        <div class="contenitore d-flex ">
+        <div class="container p-5 d-flex justify-content-center">
             <div class="d-flex ">
                 <img class="img-fluid " src="../assets/img/buy-comics-digital-comics.png" alt="">
                 <p class="align-self-center px-2 text-light">DIGITAL COMICS</p>
@@ -43,12 +43,12 @@ export default {
 }
 
 img {
-    width: 25%;
+    width: 20%;
 
 }
 
 .contenitore {
-    max-width: 1300px;
+
     margin: auto;
 }
 </style>
