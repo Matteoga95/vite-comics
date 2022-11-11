@@ -3,12 +3,13 @@ import headerSite from "./components/header.vue"
 import sezioni from "./components/sezioni.vue"
 import linksBanner from "./components/linksBanner.vue"
 import footer from "./components/footer.vue"
-
+import content from "./components/content.vue"
 
 export default {
   components: {
     headerSite,
     sezioni,
+    content,
     linksBanner,
     footer
   }
@@ -17,11 +18,13 @@ export default {
 
 <template >
   <headerSite />
-  <div id="content" class="p-5">
+
+  <!-- <div id="content" class="p-5">
     <div class="container">
-      <h2 class="text-light p-5">--> Content goes Here &lt--</h2>
+      <h2 class="text-light p-5"> Content goes Here &lt--</h2>
     </div>
-  </div>
+  </div> -->
+  <content />
 
   <sezioni />
 
