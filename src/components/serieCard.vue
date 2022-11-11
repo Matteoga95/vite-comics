@@ -9,10 +9,10 @@ export default {
 </script>
 
 <template>
-    <div class="col">
+    <div class="col-2 ">
         <div class="serieCard">
-            <img :src="image" alt="title">
-            <h4>{{ title }}</h4>
+            <img class="img-fluid px-2" :src="image" alt="title">
+            <h5 class="py-3">{{ title }}</h5>
         </div>
     </div>
 
@@ -23,5 +23,7 @@ export default {
 
 
 <style lang="scss">
-
+.serieCard {
+    color: white;
+}
 </style>

@@ -8,7 +8,7 @@ export default {
     },
     data() {
         return {
-            seriesTV: seriesTV
+            seriesTV
         }
     }
 
@@ -31,7 +31,8 @@ export default {
 
     <!-- div dinamico delle serie -->
 
-    <div class="bg-dark p-5">
+    <div class="bg-dark p-5 d-flex flex-wrap">
+
         <serieCard v-for="serieCard in seriesTV" :image="serieCard.thumb" :title="serieCard.series" />
     </div>
 
